@@ -1,7 +1,7 @@
 {
-  "name": "@letsbuilders/authentication",
-  "version": "0.0.2",
-  "description": "LetsBuild authentication module",
+  "name": "@quentinluc/simple-component",
+  "version": "0.0.3",
+  "description": "simple-component module",
   "module": "dist/index.es.js",
   "main": "dist/index.js",
   "files": [
@@ -17,11 +17,11 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/",
-    "scope": "@letsbuilders"
+    "scope": "@quentinluc"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/letsbuilders/letsbuild-authentication.git"
+    "url": "https://github.com/QuentinLuc/simple-component.git"
   },
   "author": "quentin.luc@letsbuild.com",
   "license": "ISC",
@@ -33,6 +33,7 @@
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.9.4",
+    "@letsbuilders/authentication": "0.0.3",
     "@types/react-test-renderer": "^16.9.2",
     "babel-jest": "^25.2.4",
     "oidc-client": "^1.10.1",

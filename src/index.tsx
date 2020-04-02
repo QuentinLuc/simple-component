@@ -1,8 +1,3 @@
-// import { UserSelector } from "./components/UserSelector";
-// import { UserAvatar } from "./components/UserAvatar";
+import { MyComponent } from "./components/MyComponent";
 
-import { AuthProvider } from "./components/AuthenticationContext";
-
-// export {UserAvatar, UserSelector}
-
-export { AuthProvider };
+export { MyComponent };
