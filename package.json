@@ -33,7 +33,7 @@
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.9.4",
-    "@letsbuilders/authentication": "0.0.3",
+    "@letsbuilders/authentication": "0.0.4",
     "@types/react-test-renderer": "^16.9.2",
     "babel-jest": "^25.2.4",
     "oidc-client": "^1.10.1",
