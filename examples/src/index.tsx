@@ -2,14 +2,17 @@ import * as React from "react";
 import ReactDOM from "react-dom";
 import { AuthProvider } from "../../src/components/AuthenticationContext";
 
-class Container extends React.Component {
-  render() {
-    return (
-      <AuthProvider>
-        <p>You're authenticated</p>
-      </AuthProvider>
-    );
-  }
-}
+export const Container = () => {
+  const props = {
+    signinCallback: "/examples/src/signin-callback.html",
+    signoutCallback: ""
+  };
+
+  return (
+    <AuthProvider {...props}>
+      <p>You're authenticated</p>
+    </AuthProvider>
+  );
+};
 
 ReactDOM.render(<Container />, document.getElementById("root"));

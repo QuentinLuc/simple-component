@@ -1,6 +1,6 @@
 {
   "name": "@letsbuilders/authentication",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "LetsBuild authentication module",
   "module": "dist/index.es.js",
   "main": "dist/index.js",
@@ -16,7 +16,8 @@
     "testReleated": "./node_modules/.bin/jest --watch -o"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/",
+    "scope": "@letsbuilders"
   },
   "repository": {
     "type": "git",
