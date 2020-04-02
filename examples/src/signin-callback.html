@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Letsbuild account</title>
+  </head>
+
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+
+    <p>Please wait...</p>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/oidc-client/1.8.2/oidc-client.js"></script>
+    <script>
+      new Oidc.UserManager({ response_mode: "query" })
+        .signinRedirectCallback()
+        .then(function(data) {
+          window.location = "/";
+        })
+        .catch(function(e) {
+          console.error(e);
+        });
+    </script>
+  </body>
+</html>

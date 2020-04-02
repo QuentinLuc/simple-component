@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "target": "es6",
+    "strict": true,
+    "module": "commonjs",
+    "declaration": true,
+    "declarationDir": "./dist",
+    "sourceMap": true,
+    "jsx": "react",
+    "incremental": true,
+    "noImplicitAny": true,
+    "lib": ["dom", "es2019"],
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
