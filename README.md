@@ -1,4 +1,4 @@
-# Letsbuild authentication module
+# Simple react component testing LetsBuild authentication module
 
 Run in dev mode:
 
@@ -7,12 +7,3 @@ Run in dev mode:
 Build component:
 
 `npm run build`
-
-Run tests only one:
-`npm run test`
-
-Run and watch all tests:
-`npm run testAll`
-
-Run and watch all tests related to the file being modified:
-`npm run testReleated`
